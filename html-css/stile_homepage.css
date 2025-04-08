@@ -1,0 +1,252 @@
+/* Stile GENERALE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+
+/* Stile BARRA STICKY (MENU) */
+.sticky-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #008080;
+  box-shadow: 0 2px 5px #0000001a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+/* Stile LOGO NELLA BARRA STICKY + NUMERO WhatsApp */
+.sticky-header .logo img {
+  max-height: 50px;
+}
+
+.sticky-header .wa-me img {
+  max-height: 50px;
+}
+
+
+/* Stile per la NAVIGAZIONE */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+
+/* Stile EFFETTO STICKY */
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  background-color: #008080;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+
+/* Stile INTESTAZIONE */
+.intestazione {
+  line-height: 0.5;
+}
+
+#title {
+  color: #b8860b;
+  font-size: 60px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow:2px 2px 2px #ababab;
+  margin-top: 80px;
+}
+
+#subtitleA {
+  color: #008080;
+  font-size: 40px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+}
+
+#subtitleB {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+  margin-bottom: 2%;
+}
+
+
+/* Stile SEZIONE-1 TABELLA PRESENTAZIONE */
+.section-1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabellaSection-1 {
+  border-collapse: collapse; /* Rimuove gli spazi tra le celle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.text-column {
+  color: black;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  margin-left: 5%;
+  width: 60%; /* Proporziona la grandezza insieme a image-column */
+}
+
+.image-column {
+  width: 40%; /* Come sopra */
+}
+
+.linkinternoSection-1 {
+  font-size: 20px;
+  font-family: Papyrus, Garamond, sans-serif;
+  text-align: center; /*Per allineare il contenuto al centro */
+  margin: auto; /*Per allineare il contenuto al centro */
+  width: 30%; /*Per allineare il contenuto al centro */
+  padding-bottom: 5%;
+}
+
+.linkinternoSection-1 button {
+  background-color: white;
+  border: 2px solid #008080;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.linkinternoSection-1 button:hover {
+  background-color: #008080;
+  border: 2px solid #008080;
+}
+
+.linkinternoSection-1 a.rimando-whyISH {
+  color: #008080;
+  text-decoration: none;
+}
+
+.linkinternoSection-1 a.rimando-whyISH:hover {
+  color: white;
+}
+
+
+/* Stile SEZIONE-2 FOTO */
+.section-2 {
+  background-color: #b8860b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabellaSection-2 {
+  border-collapse: collapse; /* Rimuove gli spazi tra le celle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+tr, td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  font-family: Papyrus, Garamond, sans-serif;
+  font-size: 200%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 #808080;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.container {
+  font-family: Papyrus, Garamond, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+
+/* Stile SEZIONE-3 CORPO */
+.section-3 {
+  background-color: #ffffff;
+  margin: 10%;
+}
+
+#concettichiave p{
+  font-style: italic;
+  font-family: Papyrus, Garamond, sans-serif;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+#concettichiave li{
+  font-style: normal;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 30px;
+  line-height: 1.7;
+}
+
+
+/* Stile SEZIONE-4 PARTITA IVA & CONTATTI */
+.section-4 {
+  background-color: #008080;
+  color: white;
+}
+
+#info-recapiti {
+  text-align:center;
+  font-size: 13px;
+  font-family: Arial, Garamond, sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+}

@@ -1,0 +1,263 @@
+/* Stile GENERALE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+
+/* Stile BARRA STICKY (MENU) */
+.sticky-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #008080;
+  box-shadow: 0 2px 5px #0000001a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+/* Stile LOGO NELLA BARRA STICKY + NUMERO WhatsApp */
+.sticky-header .logo img {
+  max-height: 50px;
+}
+
+.sticky-header .wa-me img {
+  max-height: 50px;
+}
+
+
+/* Stile per la NAVIGAZIONE */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+
+/* Stile EFFETTO STICKY */
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  background-color: #008080;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+
+/* Stile INTESTAZIONE */
+.intestazione {
+  line-height: 0.5;
+}
+
+#title {
+  color: #b8860b;
+  font-size: 60px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow:2px 2px 2px #ababab;
+  margin-top: 80px;
+}
+
+#subtitleA {
+  color: #008080;
+  font-size: 40px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+}
+
+#subtitleB {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+  margin-bottom: 5%;
+}
+
+/* Stile FRASE MQ */
+.fraseMQ p {
+  font-style: bold;
+  font-family: Papyrus, Garamond, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 5%;
+}
+
+
+/* Stile SEZIONE-1 TABELLA PRESENTAZIONE */
+.section-1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabellaSection-1 {
+  border-collapse: collapse; /* Rimuove gli spazi tra le celle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.text-column {
+  color: black;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 75%; /* Determina la larghezza della colonna di testo come 75% della sua grandezza originale */
+}
+
+.image-column {
+  width: 25%; /* Determina la larghezza della colonna dell'immagine come 25% della sua grandezza così il totale è 100% della tabella */
+  padding-left: 5%;
+}
+
+.linkesternoSection-1 {
+  font-size: 13px;
+  font-family: Papyrus, Garamond, sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+.linkesternoSection-1 a {
+  color: #b8860b;
+}
+
+.linkesternoSection-1 a:hover {
+  color: #008080;
+}
+
+.linkesternoSection-1 a:visited {
+  color: #800080;
+}
+
+
+/* Stile SEZIONE-2 CARATTERISTICHE MQ */
+.section-2 {
+  background-color: #b8860b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elencoSection-2 {
+  margin:50px auto;
+}
+
+#caratteristicheMQ {
+  font-size: 55px;
+  font-family: Papyrus, Garamond, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lista_caratteristicheMQ {
+  font-size: 30px;
+  font-family: Papyrus, Garamond, sans-serif;
+  color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.5;
+}
+
+.spiegazione_caratteristicheMQ {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+/* Stile SEZIONE-3 CORPO */
+.section-3 {
+  background-color: #ffffff;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.VV_AIT_MQ {
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#caricheMQ {
+  color: #b8860b;
+  font-family: Papyrus, Garamond, sans-serif;
+  font-style: bold;
+  font-size: 55px;
+  margin-left: 10px;
+}
+
+#carica1 {
+  font-family: Papyrus, Garamond, sans-serif;
+  font-style: bold;
+  font-size: 30px;
+  color: #008080;
+  margin-left: 10px;
+}
+
+#carica2 {
+  font-family: Papyrus, Garamond, sans-serif;
+  font-style: bold;
+  font-size: 30px;
+  color: #008080;
+  margin-left: 10px;
+  margin-top: 70px;
+}
+
+p {
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Stile SEZIONE-4 PARTITA IVA & CONTATTI */
+.section-4 {
+  background-color: #008080;
+  color: white;
+}
+
+#info-recapiti {
+  text-align:center;
+  font-size: 13px;
+  font-family: Arial, Garamond, sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+}

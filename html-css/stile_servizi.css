@@ -1,0 +1,301 @@
+/* Stile GENERALE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+
+/* Stile BARRA STICKY (MENU) */
+.sticky-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #008080;
+  box-shadow: 0 2px 5px #0000001a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+/* Stile LOGO NELLA BARRA STICKY + NUMERO WhatsApp */
+.sticky-header .logo img {
+  max-height: 50px;
+}
+
+.sticky-header .wa-me img {
+  max-height: 50px;
+}
+
+
+/* Stile per la NAVIGAZIONE */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+
+/* Stile EFFETTO STICKY */
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  background-color: #008080;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+
+/* Stile INTESTAZIONE */
+.intestazione {
+  line-height: 0.5; /* Distanzia le righe tra di loro*/
+}
+
+#title {
+  color: #b8860b;
+  font-size: 60px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow:2px 2px 2px #ababab;
+  margin-top: 80px;
+}
+
+#subtitleA {
+  color: #008080;
+  font-size: 40px;
+  font-family: Papyrus, Garamond, serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+}
+
+#subtitleB {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+  margin-bottom: 5%;
+}
+
+
+/* Stile SEZIONE-1 INTRO ai SERVIZI */
+.section-1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px auto;
+}
+
+.intro_servizi {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: black;
+  padding-left:15%;
+  padding-right:15%;
+  text-align: justify;
+  line-height: 2.0;
+}
+
+.titolo_intro_servizi {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  color: black;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: center;
+}
+
+.intro_servizi button {
+  background-color: white;
+  border: 2px solid #b8860b;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.intro_servizi button:hover {
+  background-color: #b8860b;
+  border: 2px solid #b8860b;
+}
+
+.intro_servizi a.rimandointerno {
+  color: #b8860b;
+  text-decoration: none;
+}
+
+.intro_servizi a.rimandointerno:hover {
+  color: #ffffff;
+}
+
+
+/* Stile SEZIONE-2 SERVIZI */
+.section-2 {
+  background-color: #b8860b;
+}
+
+.elencoSection-2 {
+  margin:50px auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+h1.dotted {
+  border-style: dotted;
+  border-color: #ffffff;
+  border-width: thick;
+}
+
+#potenziamento {
+  font-size: 60px;
+  font-family: Papyrus, Garamond, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#terzamedia {
+  font-size: 60px;
+  font-family: Papyrus, Garamond, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#parentale {
+  font-size: 60px;
+  font-family: Papyrus, Garamond, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#lista {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10%;
+  line-height: 1.5;
+}
+
+
+/* Stile SEZIONE-3 CORPO */
+.section-3 {
+  background-color: #ffffff;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.preventivoSection-3 {
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#quale_servizio {
+  color: #b8860b;
+  font-family: Papyrus, Garamond, sans-serif;
+  font-style: bold;
+  font-size: 55px;
+  margin-left: 10px;
+}
+
+#richiesta_preventivo {
+  font-family: Papyrus, Garamond, sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  color: #008080;
+  margin-left: 10px;
+}
+
+#inviami_email {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ababab;
+  margin-bottom: 5%;
+}
+
+.preventivoSection-3 button {
+  background-color: #b8860b;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.preventivoSection-3 button:hover {
+  background-color: #008080;
+}
+
+.preventivoSection-3 a.rimandomail {
+  color: white;
+  text-decoration: none;
+}
+
+.preventivoSection-3 a.rimandomail:hover {
+  color: white;
+}
+
+
+/* Stile SEZIONE-4 PARTITA IVA & CONTATTI */
+.section-4 {
+  background-color: #008080;
+  color: white;
+}
+
+#info-recapiti {
+  text-align:center;
+  font-size: 13px;
+  font-family: Arial, Garamond, sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+}
